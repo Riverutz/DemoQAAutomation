@@ -16,9 +16,10 @@ Automation test suite for the [DemoQA](https://demoqa.com/) website, structured 
 
 ## Technologies & Features
 
-- Java OOP concepts (Inheritance, Encapsulation)
-- Access control (private & protected)
-- Page Object Model structure for organized tests
+- Java with object-oriented principles
+- Selenium WebDriver for browser automation
+- TestNG for test organization and assertions
+- Page Object Model for maintainable and reusable tests
 - Data-driven testing using JSON
 - Log4j2 for logging test actions
 - Lombok to reduce boilerplate code
