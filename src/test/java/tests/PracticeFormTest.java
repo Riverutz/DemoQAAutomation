@@ -17,7 +17,6 @@ public class PracticeFormTest {
 
     @Test
     public void practiceFormTest() {
-
         driver = new ChromeDriver();
         driver.get("https://demoqa.com/");
         driver.manage().window().maximize();

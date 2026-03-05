@@ -13,7 +13,6 @@ public class WindowTest {
 
     @Test
     public void windowTest() {
-
         driver = new ChromeDriver();
         driver.get("https://demoqa.com/");
         driver.manage().window().maximize();

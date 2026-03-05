@@ -1,7 +1,6 @@
 package helperMethods;
 
 import org.openqa.selenium.WebDriver;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +14,6 @@ public class WindowMethods {
     public void switchSpecificTab(Integer index) {
         List<String> newTabButtonSwitch = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(newTabButtonSwitch.get(index));
-
     }
 
     public void closeCurrentTab() {

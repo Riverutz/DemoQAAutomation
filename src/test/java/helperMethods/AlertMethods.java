@@ -4,11 +4,9 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 
 public class AlertMethods {
-
     public WebDriver driver;
 
     public AlertMethods(WebDriver driver) {
@@ -39,6 +37,5 @@ public class AlertMethods {
         System.out.println(promtButtonOK.getText());
         promtButtonOK.sendKeys(value);
         promtButtonOK.accept();
-
     }
 }

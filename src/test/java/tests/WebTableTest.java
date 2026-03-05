@@ -13,7 +13,6 @@ public class WebTableTest {
 
     @Test
     public void webTableTest() {
-
         driver = new ChromeDriver();
         driver.get("https://demoqa.com/");
         driver.manage().window().maximize();
