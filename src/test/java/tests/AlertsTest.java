@@ -1,12 +1,11 @@
 package tests;
 
-import helperMethods.AlertMethods;
-import helperMethods.ElementMethods;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+import pages.AlertsPage;
+import pages.AlertsWindowsPage;
+import pages.HomePage;
 
 public class AlertsTest {
     public WebDriver driver;
@@ -17,29 +16,16 @@ public class AlertsTest {
         driver.get("https://demoqa.com/");
         driver.manage().window().maximize();
 
-        ElementMethods elementMethods = new ElementMethods(driver);
-        AlertMethods alertMethods = new AlertMethods(driver);
+        HomePage homePage = new HomePage(driver);
+        homePage.navigateToAlertsFrameWindowsMenu();
 
-        WebElement alertsFramesWindowsMenu = driver.findElement(By.xpath("//h5[text()='Alerts, Frame & Windows']"));
-        elementMethods.clickElement(alertsFramesWindowsMenu);
+        AlertsWindowsPage alertsWindowsPage = new AlertsWindowsPage(driver);
+        alertsWindowsPage.navigateToAlertsSubMenu();
 
-        WebElement alertsSubMenu = elementMethods.waitForElementVisibleByXpath("//span[text()='Alerts']", 10);
-        elementMethods.clickElement(alertsSubMenu);
-
-        WebElement alertButton = driver.findElement(By.id("alertButton"));
-        elementMethods.clickElement(alertButton);
-        alertMethods.acceptAlert();
-
-        WebElement confirmButton = driver.findElement(By.id("confirmButton"));
-        elementMethods.clickElement(confirmButton);
-        alertMethods.dismissAlert();
-
-        WebElement promtButton = driver.findElement(By.id("promtButton"));
-        elementMethods.clickElement(promtButton);
-        alertMethods.fillAlert("Daniel");
-
-        WebElement timerAlertButton = driver.findElement(By.id("timerAlertButton"));
-        elementMethods.clickElement(timerAlertButton);
-        alertMethods.acceptAlert();
+        AlertsPage alertsPage = new AlertsPage(driver);
+        alertsPage.clickAndAcceptAlert();
+        alertsPage.clickAndDismissConfirm();
+        alertsPage.clickAndFillAlertPrompt();
+        alertsPage.clickAndAcceptTimerAlert();
     }
 }
