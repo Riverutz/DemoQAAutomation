@@ -25,11 +25,18 @@ public class HomePage {
     @FindBy(xpath = "//h5[text()='Forms']")
     public WebElement formsMenu;
 
+    @FindBy(xpath = "//h5[text()='Elements']")
+    public WebElement elementsMenu;
+
     public void navigateToAlertsFrameWindowsMenu() {
         elementMethods.clickJSElement(alertsFramesWindowsMenu);
     }
 
     public void navigateToFormsMenu() {
         elementMethods.clickJSElement(formsMenu);
+    }
+
+    public void navigateToElementsMenu() {
+        elementMethods.clickElement(elementsMenu);
     }
 }
