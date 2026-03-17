@@ -1,22 +1,16 @@
 package tests;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import pages.AlertsWindowsPage;
 import pages.FramesPage;
 import pages.HomePage;
 import pages.NestedFramesPage;
+import sharedData.SharedData;
 
-public class FramesTest {
-    public WebDriver driver;
+public class FramesTest extends SharedData {
 
     @Test
     public void frameTest() {
-        driver = new ChromeDriver();
-        driver.get("https://demoqa.com/");
-        driver.manage().window().maximize();
-
         HomePage homePage = new HomePage(driver);
         homePage.navigateToAlertsFrameWindowsMenu();
 

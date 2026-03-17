@@ -1,21 +1,15 @@
 package tests;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import pages.ElementsPage;
 import pages.HomePage;
 import pages.WebTablesPage;
+import sharedData.SharedData;
 
-public class WebTableTest {
-    public WebDriver driver;
+public class WebTableTest extends SharedData {
 
     @Test
     public void webTableTest() {
-        driver = new ChromeDriver();
-        driver.get("https://demoqa.com/");
-        driver.manage().window().maximize();
-
         HomePage homePage = new HomePage(driver);
         homePage.navigateToElementsMenu();
 

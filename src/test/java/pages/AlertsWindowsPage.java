@@ -1,22 +1,12 @@
 package pages;
 
-import helperMethods.ElementMethods;
-import helperMethods.WindowMethods;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class AlertsWindowsPage {
-    public WebDriver driver;
-    public ElementMethods elementMethods;
-    public WindowMethods windowMethods;
-
+public class AlertsWindowsPage extends BasePage{
     public AlertsWindowsPage(WebDriver driver) {
-        this.driver = driver;
-        elementMethods = new ElementMethods(driver);
-        windowMethods = new WindowMethods(driver);
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
 
     @FindBy(xpath = "//span[text()='Browser Windows']")
@@ -29,14 +19,14 @@ public class AlertsWindowsPage {
     public WebElement alertsSubMenu;
 
     public void navigateToBrowserWindowsSubMenu() {
-        elementMethods.clickJSElement(browserWindowsSubMenu);
+        elementsMethods.clickJSElement(browserWindowsSubMenu);
     }
 
     public void navigateToFramesSubMenu() {
-        elementMethods.clickJSElement(framesSubMenu);
+        elementsMethods.clickJSElement(framesSubMenu);
     }
 
     public void navigateToAlertsSubMenu(){
-        elementMethods.clickElement(alertsSubMenu);
+        elementsMethods.clickElement(alertsSubMenu);
     }
 }

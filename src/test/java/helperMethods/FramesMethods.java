@@ -3,10 +3,10 @@ package helperMethods;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class FrameMethods {
+public class FramesMethods {
     public WebDriver driver;
 
-    public FrameMethods(WebDriver driver) {
+    public FramesMethods(WebDriver driver) {
         this.driver = driver;
     }
 

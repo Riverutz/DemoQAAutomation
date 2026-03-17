@@ -1,22 +1,12 @@
 package pages;
 
-import helperMethods.ElementMethods;
-import helperMethods.WindowMethods;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class WebTablesPage {
-    public WebDriver driver;
-    public ElementMethods elementMethods;
-    public WindowMethods windowMethods;
-
+public class WebTablesPage extends BasePage{
     public WebTablesPage(WebDriver driver) {
-        this.driver = driver;
-        elementMethods = new ElementMethods(driver);
-        windowMethods = new WindowMethods(driver);
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
 
     @FindBy(id = "addNewRecordButton")
@@ -49,31 +39,31 @@ public class WebTablesPage {
     @FindBy(id = "delete-record-4")
     public WebElement deleteRecord4;
 
-    public void addNewRecord() {
-        elementMethods.clickElement(addNewRecordButton);
+  public void addNewRecord() {
+        elementsMethods.clickElement(addNewRecordButton);
     }
 
     public void addEntry(String firstNameValue, String lastNameValue, String userEmailValue,
                          String ageFieldValue, String salaryFieldValue, String departmentFieldValue) {
-        elementMethods.fillElement(firstName, firstNameValue);
-        elementMethods.fillElement(lastName, lastNameValue);
-        elementMethods.fillElement(userEmail, userEmailValue);
-        elementMethods.fillElement(age, ageFieldValue);
-        elementMethods.fillElement(salary, salaryFieldValue);
-        elementMethods.fillElement(department, departmentFieldValue);
-        elementMethods.clickElement(submitButton);
+        elementsMethods.fillElement(firstName, firstNameValue);
+        elementsMethods.fillElement(lastName, lastNameValue);
+        elementsMethods.fillElement(userEmail, userEmailValue);
+        elementsMethods.fillElement(age, ageFieldValue);
+        elementsMethods.fillElement(salary, salaryFieldValue);
+        elementsMethods.fillElement(department, departmentFieldValue);
+        elementsMethods.clickElement(submitButton);
     }
 
     public void editEntry(String editSalaryFieldValue, String editDepartmentFieldValue) {
-        elementMethods.clickJSElement(editRecord4);
-        elementMethods.scrollPage(0, 250);
-        elementMethods.clearFillElement(salary, editSalaryFieldValue);
-        elementMethods.clearFillElement(department, editDepartmentFieldValue);
-        elementMethods.clickElement(submitButton);
+        elementsMethods.clickJSElement(editRecord4);
+        elementsMethods.scrollPage(0, 250);
+        elementsMethods.clearFillElement(salary, editSalaryFieldValue);
+        elementsMethods.clearFillElement(department, editDepartmentFieldValue);
+        elementsMethods.clickElement(submitButton);
     }
 
     public void deleteEntry() {
-        elementMethods.clickElement(deleteRecord4);
-        windowMethods.quitPage();
+        elementsMethods.clickElement(deleteRecord4);
+        windowsMethods.quitPage();
     }
 }

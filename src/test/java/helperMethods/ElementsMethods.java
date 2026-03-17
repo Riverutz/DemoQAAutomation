@@ -6,10 +6,10 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
-public class ElementMethods {
+public class ElementsMethods {
     public WebDriver driver;
 
-    public ElementMethods(WebDriver driver) {
+    public ElementsMethods(WebDriver driver) {
         this.driver = driver;
     }
 

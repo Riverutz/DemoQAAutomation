@@ -6,10 +6,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
-public class AlertMethods {
+public class AlertsMethods {
     public WebDriver driver;
 
-    public AlertMethods(WebDriver driver) {
+    public AlertsMethods(WebDriver driver) {
         this.driver = driver;
     }
 

@@ -1,22 +1,12 @@
 package pages;
 
-import helperMethods.ElementMethods;
-import helperMethods.WindowMethods;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class WindowsPage {
-    public WebDriver driver;
-    public ElementMethods elementMethods;
-    public WindowMethods windowMethods;
-
+public class WindowsPage extends BasePage {
     public WindowsPage(WebDriver driver) {
-        this.driver = driver;
-        elementMethods = new ElementMethods(driver);
-        windowMethods = new WindowMethods(driver);
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
 
     @FindBy(id = "tabButton")
@@ -26,20 +16,20 @@ public class WindowsPage {
     public WebElement newWindowButton;
 
     public void openNewTab() {
-        elementMethods.clickJSElement(newTabButton);
+        elementsMethods.clickJSElement(newTabButton);
         System.out.println(driver.getCurrentUrl());
-        windowMethods.switchSpecificTab(1);
+        windowsMethods.switchSpecificTab(1);
         System.out.println(driver.getCurrentUrl());
-        windowMethods.closeCurrentTab();
-        windowMethods.switchSpecificTab(0);
+        windowsMethods.closeCurrentTab();
+        windowsMethods.switchSpecificTab(0);
     }
 
     public void openNewWindow() {
-        elementMethods.clickJSElement(newWindowButton);
+        elementsMethods.clickJSElement(newWindowButton);
         System.out.println(driver.getCurrentUrl());
-        windowMethods.switchSpecificTab(1);
+        windowsMethods.switchSpecificTab(1);
         System.out.println(driver.getCurrentUrl());
-        windowMethods.closeCurrentTab();
-        windowMethods.quitPage();
+        windowsMethods.closeCurrentTab();
+        windowsMethods.quitPage();
     }
 }
