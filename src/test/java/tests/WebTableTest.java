@@ -10,13 +10,13 @@ public class WebTableTest extends SharedData {
 
     @Test
     public void webTableTest() {
-        HomePage homePage = new HomePage(driver);
+        HomePage homePage = new HomePage(getDriver());
         homePage.navigateToElementsMenu();
 
-        ElementsPage elementsPage = new ElementsPage(driver);
+        ElementsPage elementsPage = new ElementsPage(getDriver());
         elementsPage.navigateToWebTablesSubMenu();
 
-        WebTablesPage webTablesPage = new WebTablesPage(driver);
+        WebTablesPage webTablesPage = new WebTablesPage(getDriver());
         webTablesPage.addNewRecord();
         webTablesPage.addEntry("Daniel", "Vlasceanu", "autotesting@gmail.com",
                 "35", "3500", "Testing");

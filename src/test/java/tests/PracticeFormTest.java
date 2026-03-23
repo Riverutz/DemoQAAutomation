@@ -12,7 +12,7 @@ public class PracticeFormTest extends SharedData {
 
     @Test
     public void practiceFormTest() {
-        HomePage homePage = new HomePage(driver);
+        HomePage homePage = new HomePage(getDriver());
         homePage.navigateToFormsMenu();
 
         String firstNameValue = "Daniel";
@@ -30,7 +30,7 @@ public class PracticeFormTest extends SharedData {
         String currentStateValue = "Haryana";
         String currentCityValue = "Karnal";
 
-        PracticeFormPage practiceFormPage = new PracticeFormPage(driver);
+        PracticeFormPage practiceFormPage = new PracticeFormPage(getDriver());
         practiceFormPage.navigateToPracticeFormSubMenu();
         practiceFormPage.fillTheEntireForm(firstNameValue, lastNameValue, userEmailValue, genderValue,
                 userNumberValue, monthValue, yearValue, dayValue, subjectsValue, hobbiesValues,

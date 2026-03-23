@@ -15,67 +15,67 @@ public class PracticeFormPage extends BasePage {
     }
 
     @FindBy(xpath = "//span[text()='Practice Form']")
-    public WebElement practiceFormSubMenu;
+    private WebElement practiceFormSubMenu;
 
     @FindBy(id = "firstName")
-    public WebElement firstName;
+    private WebElement firstName;
 
     @FindBy(id = "lastName")
-    public WebElement lastName;
+    private WebElement lastName;
 
     @FindBy(id = "userEmail")
-    public WebElement userEmail;
+    private WebElement userEmail;
 
     @FindBy(xpath = "//input[@name='gender']")
-    public List<WebElement> genders;
+    private List<WebElement> genders;
 
     @FindBy(id = "userNumber")
-    public WebElement userNumber;
+    private WebElement userNumber;
 
     @FindBy(id = "dateOfBirthInput")
-    public WebElement dateOfBirthInput;
+    private WebElement dateOfBirthInput;
 
     @FindBy(className = "react-datepicker__month-select")
-    public WebElement dateOfBirthMonth;
+    private WebElement dateOfBirthMonth;
 
     @FindBy(className = "react-datepicker__year-select")
-    public WebElement dateOfBirthYear;
+    private WebElement dateOfBirthYear;
 
     @FindBy(xpath = "//div[contains(@class,'react-datepicker__day') " + "and not(contains(@class,'--outside-month'))]")
-    public List<WebElement> dateOfBirthDays;
+    private List<WebElement> dateOfBirthDays;
 
     @FindBy(id = "subjectsInput")
-    public WebElement subjectsInput;
+    private WebElement subjectsInput;
 
     @FindBy(xpath = "//input[@type='checkbox' and contains(@id,'hobbies-checkbox')]")
-    public List<WebElement> hobbiesInput;
+    private List<WebElement> hobbiesInput;
 
     @FindBy(id = "uploadPicture")
-    public WebElement uploadPicture;
+    private WebElement uploadPicture;
 
     @FindBy(id = "currentAddress")
-    public WebElement currentAddress;
+    private WebElement currentAddress;
 
     @FindBy(id = "state")
-    public WebElement state;
+    private WebElement state;
 
     @FindBy(id = "react-select-3-input")
-    public WebElement currentStateInput;
+    private WebElement currentStateInput;
 
     @FindBy(id = "city")
-    public WebElement city;
+    private WebElement city;
 
     @FindBy(id = "react-select-4-input")
-    public WebElement currentCityInput;
+    private WebElement currentCityInput;
 
     @FindBy(id = "submit")
-    public WebElement submitButton;
+    private WebElement submitButton;
 
     @FindBy(id = "example-modal-sizes-title-lg")
-    public WebElement modalForm;
+    private WebElement modalForm;
 
     @FindBy(xpath = "//table[@class='table table-dark table-striped table-bordered table-hover']/tbody/tr")
-    public List<WebElement> tableValues;
+    private List<WebElement> tableValues;
 
     public void navigateToPracticeFormSubMenu() {
         elementsMethods.clickJSElement(practiceFormSubMenu);

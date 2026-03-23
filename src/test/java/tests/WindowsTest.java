@@ -10,13 +10,13 @@ public class WindowsTest extends SharedData {
 
     @Test
     public void windowTest() {
-        HomePage homePage = new HomePage(driver);
+        HomePage homePage = new HomePage(getDriver());
         homePage.navigateToAlertsFrameWindowsMenu();
 
-        AlertsWindowsPage alertsWindowsPage = new AlertsWindowsPage(driver);
+        AlertsWindowsPage alertsWindowsPage = new AlertsWindowsPage(getDriver());
         alertsWindowsPage.navigateToBrowserWindowsSubMenu();
 
-        WindowsPage windowsPage = new WindowsPage(driver);
+        WindowsPage windowsPage = new WindowsPage(getDriver());
         windowsPage.openNewTab();
         windowsPage.openNewWindow();
     }

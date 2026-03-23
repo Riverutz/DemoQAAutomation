@@ -10,13 +10,13 @@ public class AlertsWindowsPage extends BasePage{
     }
 
     @FindBy(xpath = "//span[text()='Browser Windows']")
-    public WebElement browserWindowsSubMenu;
+    private WebElement browserWindowsSubMenu;
 
     @FindBy(xpath = "//span[text()='Frames']")
-    public WebElement framesSubMenu;
+    private WebElement framesSubMenu;
 
     @FindBy(xpath = "//span[text()='Alerts']")
-    public WebElement alertsSubMenu;
+    private WebElement alertsSubMenu;
 
     public void navigateToBrowserWindowsSubMenu() {
         elementsMethods.clickJSElement(browserWindowsSubMenu);

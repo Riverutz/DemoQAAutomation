@@ -10,16 +10,16 @@ public class AlertsPage extends BasePage{
     }
 
     @FindBy(id = "alertButton")
-    public WebElement alertButton;
+    private WebElement alertButton;
 
     @FindBy(id = "confirmButton")
-    public WebElement confirmButton;
+    private WebElement confirmButton;
 
     @FindBy(id = "promtButton")
-    public WebElement promtButton;
+    private WebElement promtButton;
 
     @FindBy(id = "timerAlertButton")
-    public WebElement timerAlertButton;
+    private WebElement timerAlertButton;
 
     public void clickAndAcceptAlert() {
         elementsMethods.clickElement(alertButton);

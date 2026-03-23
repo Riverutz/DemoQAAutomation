@@ -10,13 +10,13 @@ public class FramesPage extends BasePage{
     }
 
     @FindBy(id = "sampleHeading")
-    public WebElement frame1Heading;
+    private WebElement frame1Heading;
 
     @FindBy(id = "sampleHeading")
-    public WebElement frame2Heading;
+    private WebElement frame2Heading;
 
     @FindBy(xpath = "//span[text()='Nested Frames']")
-    public WebElement nestedFramesSubMenu;
+    private WebElement nestedFramesSubMenu;
 
     public void readLargeFrameHeading() {
         framesMethods.switchToFrame("frame1");

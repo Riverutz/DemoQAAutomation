@@ -10,10 +10,10 @@ public class WindowsPage extends BasePage {
     }
 
     @FindBy(id = "tabButton")
-    public WebElement newTabButton;
+    private WebElement newTabButton;
 
     @FindBy(id = "windowButton")
-    public WebElement newWindowButton;
+    private WebElement newWindowButton;
 
     public void openNewTab() {
         elementsMethods.clickJSElement(newTabButton);
@@ -30,6 +30,5 @@ public class WindowsPage extends BasePage {
         windowsMethods.switchSpecificTab(1);
         System.out.println(driver.getCurrentUrl());
         windowsMethods.closeCurrentTab();
-        windowsMethods.quitPage();
     }
 }

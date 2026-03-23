@@ -8,11 +8,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class BasePage {
-    public WebDriver driver;
-    public AlertsMethods alertsMethods;
-    public ElementsMethods elementsMethods;
-    public FramesMethods framesMethods;
-    public WindowsMethods windowsMethods;
+    protected WebDriver driver;
+    protected AlertsMethods alertsMethods;
+    protected ElementsMethods elementsMethods;
+    protected FramesMethods framesMethods;
+    protected WindowsMethods windowsMethods;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;

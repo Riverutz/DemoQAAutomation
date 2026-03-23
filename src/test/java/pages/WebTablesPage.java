@@ -4,42 +4,42 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class WebTablesPage extends BasePage{
+public class WebTablesPage extends BasePage {
     public WebTablesPage(WebDriver driver) {
         super(driver);
     }
 
     @FindBy(id = "addNewRecordButton")
-    public WebElement addNewRecordButton;
+    private WebElement addNewRecordButton;
 
     @FindBy(id = "firstName")
-    public WebElement firstName;
+    private WebElement firstName;
 
     @FindBy(id = "lastName")
-    public WebElement lastName;
+    private WebElement lastName;
 
     @FindBy(id = "userEmail")
-    public WebElement userEmail;
+    private WebElement userEmail;
 
     @FindBy(id = "age")
-    public WebElement age;
+    private WebElement age;
 
     @FindBy(id = "salary")
-    public WebElement salary;
+    private WebElement salary;
 
     @FindBy(id = "department")
-    public WebElement department;
+    private WebElement department;
 
     @FindBy(id = "edit-record-4")
-    public WebElement editRecord4;
+    private WebElement editRecord4;
 
     @FindBy(id = "submit")
-    public WebElement submitButton;
+    private WebElement submitButton;
 
     @FindBy(id = "delete-record-4")
-    public WebElement deleteRecord4;
+    private WebElement deleteRecord4;
 
-  public void addNewRecord() {
+    public void addNewRecord() {
         elementsMethods.clickElement(addNewRecordButton);
     }
 
@@ -64,6 +64,5 @@ public class WebTablesPage extends BasePage{
 
     public void deleteEntry() {
         elementsMethods.clickElement(deleteRecord4);
-        windowsMethods.quitPage();
     }
 }
