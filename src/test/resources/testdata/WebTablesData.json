@@ -1,0 +1,10 @@
+{
+  "firstNameValue": "Daniel",
+  "lastNameValue": "Vlasceanu",
+  "userEmailValue": "autotesting@gmail.com",
+  "ageFieldValue": "35",
+  "salaryFieldValue": "5500",
+  "departmentFieldValue": "Testing",
+  "editSalaryFieldValue": "4500",
+  "editDepartmentFieldValue": "Programming"
+}

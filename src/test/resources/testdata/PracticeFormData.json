@@ -1,0 +1,16 @@
+{
+  "firstNameValue": "Daniel",
+  "lastNameValue": "Vlasceanu",
+  "userEmailValue": "automationtesting@gmail.com",
+  "genderValue": "Male",
+  "userNumberValue": "0712412445",
+  "monthValue": "December",
+  "yearValue": "2000",
+  "dayValue": "23",
+  "subjectsValue": "Arts",
+  "hobbiesValues": ["Reading","Music"],
+  "picturePathValue": "exempluUpload.txt",
+  "currentAddressValue": "Str. Carpati, Nr.24, Orasul Focsani, Jud. Vrancea, Cod Postal: 625100",
+  "currentStateValue": "Haryana",
+  "currentCityValue": "Karnal"
+}

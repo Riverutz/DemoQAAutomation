@@ -1,5 +1,6 @@
 package tests;
 
+import objectdata.WebTablesObject;
 import org.testng.annotations.Test;
 import pages.ElementsPage;
 import pages.HomePage;
@@ -10,6 +11,7 @@ public class WebTableTest extends SharedData {
 
     @Test
     public void webTableTest() {
+        WebTablesObject testData = new WebTablesObject("testdata/WebTablesData.json");
         HomePage homePage = new HomePage(getDriver());
         homePage.navigateToElementsMenu();
 
@@ -18,9 +20,8 @@ public class WebTableTest extends SharedData {
 
         WebTablesPage webTablesPage = new WebTablesPage(getDriver());
         webTablesPage.addNewRecord();
-        webTablesPage.addEntry("Daniel", "Vlasceanu", "autotesting@gmail.com",
-                "35", "3500", "Testing");
-        webTablesPage.editEntry("7500", "Programming");
+        webTablesPage.addEntry(testData);
+        webTablesPage.editEntry(testData);
         webTablesPage.deleteEntry();
     }
 }

@@ -1,5 +1,6 @@
 package pages;
 
+import objectdata.WebTablesObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -43,22 +44,21 @@ public class WebTablesPage extends BasePage {
         elementsMethods.clickElement(addNewRecordButton);
     }
 
-    public void addEntry(String firstNameValue, String lastNameValue, String userEmailValue,
-                         String ageFieldValue, String salaryFieldValue, String departmentFieldValue) {
-        elementsMethods.fillElement(firstName, firstNameValue);
-        elementsMethods.fillElement(lastName, lastNameValue);
-        elementsMethods.fillElement(userEmail, userEmailValue);
-        elementsMethods.fillElement(age, ageFieldValue);
-        elementsMethods.fillElement(salary, salaryFieldValue);
-        elementsMethods.fillElement(department, departmentFieldValue);
+    public void addEntry(WebTablesObject testData) {
+        elementsMethods.fillElement(firstName, testData.getFirstNameValue());
+        elementsMethods.fillElement(lastName, testData.getLastNameValue());
+        elementsMethods.fillElement(userEmail, testData.getUserEmailValue());
+        elementsMethods.fillElement(age, testData.getAgeFieldValue());
+        elementsMethods.fillElement(salary, testData.getSalaryFieldValue());
+        elementsMethods.fillElement(department, testData.getDepartmentFieldValue());
         elementsMethods.clickElement(submitButton);
     }
 
-    public void editEntry(String editSalaryFieldValue, String editDepartmentFieldValue) {
+    public void editEntry(WebTablesObject testData) {
         elementsMethods.clickJSElement(editRecord4);
         elementsMethods.scrollPage(0, 250);
-        elementsMethods.clearFillElement(salary, editSalaryFieldValue);
-        elementsMethods.clearFillElement(department, editDepartmentFieldValue);
+        elementsMethods.clearFillElement(salary, testData.getEditSalaryFieldValue());
+        elementsMethods.clearFillElement(department, testData.getEditDepartmentFieldValue());
         elementsMethods.clickElement(submitButton);
     }
 
