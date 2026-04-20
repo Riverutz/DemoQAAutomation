@@ -1,0 +1,196 @@
+13-04-2026 13:20:01 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+13-04-2026 13:20:02 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+13-04-2026 13:20:03 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+13-04-2026 13:20:03 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+13-04-2026 13:20:03 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+13-04-2026 13:20:03 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+13-04-2026 13:20:09 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+15-04-2026 11:20:50 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+15-04-2026 11:20:53 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+15-04-2026 11:20:54 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+15-04-2026 11:20:54 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+15-04-2026 11:20:54 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+15-04-2026 11:20:54 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+15-04-2026 11:20:54 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+15-04-2026 11:20:55 INFO  loggerutility.LoggerUtilityutility - Clicking 'Browser Windows' submenu
+15-04-2026 11:20:55 INFO  loggerutility.LoggerUtilityutility - Clicking 'New Tab' button
+15-04-2026 11:20:55 INFO  loggerutility.LoggerUtilityutility - Current URL (main tab): https://demoqa.com/browser-windows
+15-04-2026 11:20:55 INFO  loggerutility.LoggerUtilityutility - Switching to new tab
+15-04-2026 11:20:55 INFO  loggerutility.LoggerUtilityutility - Current URL (new tab): https://demoqa.com/sample
+15-04-2026 11:20:55 INFO  loggerutility.LoggerUtilityutility - Closing new tab
+15-04-2026 11:20:55 INFO  loggerutility.LoggerUtilityutility - Switching back to main tab
+15-04-2026 11:20:55 INFO  loggerutility.LoggerUtilityutility - Clicking 'New Window' button
+15-04-2026 11:20:55 INFO  loggerutility.LoggerUtilityutility - Current URL (main window): https://demoqa.com/browser-windows
+15-04-2026 11:20:55 INFO  loggerutility.LoggerUtilityutility - Switching to new window
+15-04-2026 11:20:55 INFO  loggerutility.LoggerUtilityutility - Current URL (new window): https://demoqa.com/sample
+15-04-2026 11:20:55 INFO  loggerutility.LoggerUtilityutility - Closing new window
+15-04-2026 11:20:55 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+15-04-2026 11:54:24 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+15-04-2026 11:54:26 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+15-04-2026 11:54:27 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+15-04-2026 11:54:27 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+15-04-2026 11:54:27 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+15-04-2026 11:54:27 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+15-04-2026 11:54:27 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+15-04-2026 11:54:27 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts' submenu
+15-04-2026 11:54:27 INFO  loggerutility.LoggerUtilityutility - AlertsPage initialized
+15-04-2026 11:54:27 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alert' button
+15-04-2026 11:54:28 INFO  loggerutility.LoggerUtilityutility - Accepting alert
+15-04-2026 11:54:28 INFO  loggerutility.LoggerUtilityutility - Clicking 'Confirm' button
+15-04-2026 11:54:28 INFO  loggerutility.LoggerUtilityutility - Clicking 'Prompt' button
+15-04-2026 11:54:28 INFO  loggerutility.LoggerUtilityutility - Filling prompt alert with value: Daniel
+15-04-2026 11:54:28 INFO  loggerutility.LoggerUtilityutility - Clicking 'Timer Alert' button
+15-04-2026 11:54:28 INFO  loggerutility.LoggerUtilityutility - Waiting for timer alert and accepting it
+15-04-2026 11:54:33 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+15-04-2026 11:54:54 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+15-04-2026 11:54:55 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+15-04-2026 11:54:56 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+15-04-2026 11:54:56 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+15-04-2026 11:54:56 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+15-04-2026 11:54:56 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+15-04-2026 11:54:56 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+15-04-2026 11:54:56 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts' submenu
+15-04-2026 11:54:56 INFO  loggerutility.LoggerUtilityutility - AlertsPage initialized
+15-04-2026 11:54:56 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alert' button
+15-04-2026 11:54:56 INFO  loggerutility.LoggerUtilityutility - Accepting alert
+15-04-2026 11:54:56 INFO  loggerutility.LoggerUtilityutility - Clicking 'Confirm' button
+15-04-2026 11:54:56 INFO  loggerutility.LoggerUtilityutility - Clicking 'Prompt' button
+15-04-2026 11:54:57 INFO  loggerutility.LoggerUtilityutility - Filling prompt alert with value: Daniel
+15-04-2026 11:54:57 INFO  loggerutility.LoggerUtilityutility - Clicking 'Timer Alert' button
+15-04-2026 11:54:57 INFO  loggerutility.LoggerUtilityutility - Waiting for timer alert and accepting it
+15-04-2026 11:55:02 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+15-04-2026 11:56:23 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+15-04-2026 11:56:24 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+15-04-2026 11:56:25 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+15-04-2026 11:56:25 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+15-04-2026 11:56:25 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+15-04-2026 11:56:25 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+15-04-2026 11:56:25 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+15-04-2026 11:56:25 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts' submenu
+15-04-2026 11:56:26 INFO  loggerutility.LoggerUtilityutility - AlertsPage initialized
+15-04-2026 11:56:26 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alert' button
+15-04-2026 11:56:26 INFO  loggerutility.LoggerUtilityutility - Accepting alert
+15-04-2026 11:56:26 INFO  loggerutility.LoggerUtilityutility - Clicking 'Confirm' button
+15-04-2026 11:56:26 INFO  loggerutility.LoggerUtilityutility - Clicking 'OK' on confirm alert
+15-04-2026 11:56:26 INFO  loggerutility.LoggerUtilityutility - Clicking 'Prompt' button
+15-04-2026 11:56:26 INFO  loggerutility.LoggerUtilityutility - Filling prompt alert with value: Daniel
+15-04-2026 11:56:26 INFO  loggerutility.LoggerUtilityutility - Clicking 'Timer Alert' button
+15-04-2026 11:56:26 INFO  loggerutility.LoggerUtilityutility - Waiting for timer alert and accepting it
+15-04-2026 11:56:32 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+15-04-2026 12:05:08 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+15-04-2026 12:05:09 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+15-04-2026 12:05:10 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+15-04-2026 12:05:10 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+15-04-2026 12:05:10 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+15-04-2026 12:05:10 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+15-04-2026 12:05:10 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+15-04-2026 12:05:10 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+15-04-2026 12:05:10 INFO  loggerutility.LoggerUtilityutility - AlertsWindowsPage initialized
+15-04-2026 12:05:10 INFO  loggerutility.LoggerUtilityutility - Clicking 'Frames' submenu
+15-04-2026 12:05:10 INFO  loggerutility.LoggerUtilityutility - FramesPage initialized
+15-04-2026 12:05:10 INFO  loggerutility.LoggerUtilityutility - Switching to Frame 1
+15-04-2026 12:05:20 INFO  loggerutility.LoggerUtilityutility - Reading text from Frame 1 heading
+15-04-2026 12:05:20 INFO  loggerutility.LoggerUtilityutility - Frame 1 heading: This is a sample page
+15-04-2026 12:05:20 INFO  loggerutility.LoggerUtilityutility - Switching back to default content
+15-04-2026 12:05:20 INFO  loggerutility.LoggerUtilityutility - Switching to Frame 2
+15-04-2026 12:05:30 INFO  loggerutility.LoggerUtilityutility - Reading text from Frame 2 heading
+15-04-2026 12:05:30 INFO  loggerutility.LoggerUtilityutility - Frame 2 heading: This is a sample page
+15-04-2026 12:05:30 INFO  loggerutility.LoggerUtilityutility - Switching back to default content
+15-04-2026 12:05:30 INFO  loggerutility.LoggerUtilityutility - Clicking 'Nested Frames' submenu
+15-04-2026 12:05:41 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+15-04-2026 12:26:14 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+15-04-2026 12:26:15 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+15-04-2026 12:26:16 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+15-04-2026 12:26:16 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+15-04-2026 12:26:16 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+15-04-2026 12:26:16 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+15-04-2026 12:26:16 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+15-04-2026 12:26:16 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+15-04-2026 12:26:17 INFO  loggerutility.LoggerUtilityutility - AlertsWindowsPage initialized
+15-04-2026 12:26:17 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts' submenu
+15-04-2026 12:26:17 INFO  loggerutility.LoggerUtilityutility - AlertsPage initialized
+15-04-2026 12:26:17 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alert' button
+15-04-2026 12:26:17 INFO  loggerutility.LoggerUtilityutility - Accepting alert
+15-04-2026 12:26:17 INFO  loggerutility.LoggerUtilityutility - Clicking 'Confirm' button
+15-04-2026 12:26:17 INFO  loggerutility.LoggerUtilityutility - Clicking 'OK' on confirm alert
+15-04-2026 12:26:17 INFO  loggerutility.LoggerUtilityutility - Clicking 'Prompt' button
+15-04-2026 12:26:17 INFO  loggerutility.LoggerUtilityutility - Filling prompt alert with value: Daniel
+15-04-2026 12:26:17 INFO  loggerutility.LoggerUtilityutility - Clicking 'Timer Alert' button
+15-04-2026 12:26:17 INFO  loggerutility.LoggerUtilityutility - Waiting for timer alert and accepting it
+15-04-2026 12:26:23 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+15-04-2026 12:49:25 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+15-04-2026 12:49:27 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+15-04-2026 12:49:28 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+15-04-2026 12:49:28 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+15-04-2026 12:49:28 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+15-04-2026 12:49:28 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+15-04-2026 12:49:29 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+15-04-2026 12:49:29 INFO  loggerutility.LoggerUtilityutility - Clicking 'Elements' menu
+15-04-2026 12:49:29 INFO  loggerutility.LoggerUtilityutility - WebTablesPage initialized
+15-04-2026 12:49:30 INFO  loggerutility.LoggerUtilityutility - Filling new record form
+15-04-2026 12:49:30 INFO  loggerutility.LoggerUtilityutility - Entering first name: Daniel
+15-04-2026 12:49:31 INFO  loggerutility.LoggerUtilityutility - Entering last name: Vlasceanu
+15-04-2026 12:49:31 INFO  loggerutility.LoggerUtilityutility - Entering email: autotesting@gmail.com
+15-04-2026 12:49:31 INFO  loggerutility.LoggerUtilityutility - Entering age: 35
+15-04-2026 12:49:31 INFO  loggerutility.LoggerUtilityutility - Entering salary: 5500
+15-04-2026 12:49:32 INFO  loggerutility.LoggerUtilityutility - Entering department: Testing
+15-04-2026 12:49:32 INFO  loggerutility.LoggerUtilityutility - Submitting new record
+15-04-2026 12:49:32 INFO  loggerutility.LoggerUtilityutility - Clicking edit button for record 4
+15-04-2026 12:49:32 INFO  loggerutility.LoggerUtilityutility - Scrolling to edit form
+15-04-2026 12:49:32 INFO  loggerutility.LoggerUtilityutility - Updating salary: 4500
+15-04-2026 12:49:33 INFO  loggerutility.LoggerUtilityutility - Updating department: Programming
+15-04-2026 12:49:33 INFO  loggerutility.LoggerUtilityutility - Submitting updated record
+15-04-2026 12:49:33 INFO  loggerutility.LoggerUtilityutility - Deleting record 4
+15-04-2026 12:49:34 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+15-04-2026 12:59:26 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+15-04-2026 12:59:28 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+15-04-2026 12:59:29 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+15-04-2026 12:59:29 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+15-04-2026 12:59:29 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+15-04-2026 12:59:29 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+15-04-2026 12:59:30 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+15-04-2026 12:59:30 INFO  loggerutility.LoggerUtilityutility - Clicking 'Forms' menu
+15-04-2026 12:59:30 INFO  loggerutility.LoggerUtilityutility - PracticeFormPage initialized
+15-04-2026 12:59:30 INFO  loggerutility.LoggerUtilityutility - Clicking 'Practice Form' submenu
+15-04-2026 12:59:30 INFO  loggerutility.LoggerUtilityutility - Filling Practice Form
+15-04-2026 12:59:30 INFO  loggerutility.LoggerUtilityutility - Entering first name: Daniel
+15-04-2026 12:59:30 INFO  loggerutility.LoggerUtilityutility - Entering last name: Vlasceanu
+15-04-2026 12:59:31 INFO  loggerutility.LoggerUtilityutility - Entering email: automationtesting@gmail.com
+15-04-2026 12:59:32 INFO  loggerutility.LoggerUtilityutility - Selecting gender: Male
+15-04-2026 12:59:32 INFO  loggerutility.LoggerUtilityutility - Entering mobile number: 0712412445
+15-04-2026 12:59:32 INFO  loggerutility.LoggerUtilityutility - Setting date of birth: 23 December 2000
+15-04-2026 12:59:34 INFO  loggerutility.LoggerUtilityutility - Entering subject: Arts
+15-04-2026 12:59:34 INFO  loggerutility.LoggerUtilityutility - Uploading picture: exempluUpload.txt
+15-04-2026 12:59:35 INFO  loggerutility.LoggerUtilityutility - Entering current address
+15-04-2026 12:59:35 INFO  loggerutility.LoggerUtilityutility - Selecting state: Haryana
+15-04-2026 12:59:35 INFO  loggerutility.LoggerUtilityutility - Selecting city: Karnal
+15-04-2026 12:59:36 INFO  loggerutility.LoggerUtilityutility - Submitting form
+15-04-2026 12:59:36 INFO  loggerutility.LoggerUtilityutility - Verifying form submission modal
+15-04-2026 12:59:36 INFO  loggerutility.LoggerUtilityutility - Verifying submitted table values
+15-04-2026 12:59:37 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+15-04-2026 13:15:04 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+15-04-2026 13:15:05 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+15-04-2026 13:15:06 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+15-04-2026 13:15:06 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+15-04-2026 13:15:06 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+15-04-2026 13:15:06 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+15-04-2026 13:15:06 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+15-04-2026 13:15:06 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+15-04-2026 13:15:06 INFO  loggerutility.LoggerUtilityutility - AlertsWindowsPage initialized
+15-04-2026 13:15:06 INFO  loggerutility.LoggerUtilityutility - Clicking 'Frames' submenu
+15-04-2026 13:15:06 INFO  loggerutility.LoggerUtilityutility - FramesPage initialized
+15-04-2026 13:15:06 INFO  loggerutility.LoggerUtilityutility - Switching to Frame 1
+15-04-2026 13:15:16 INFO  loggerutility.LoggerUtilityutility - Reading text from Frame 1 heading
+15-04-2026 13:15:16 INFO  loggerutility.LoggerUtilityutility - Frame 1 heading: This is a sample page
+15-04-2026 13:15:16 INFO  loggerutility.LoggerUtilityutility - Switching back to default content
+15-04-2026 13:15:16 INFO  loggerutility.LoggerUtilityutility - Switching to Frame 2
+15-04-2026 13:15:27 INFO  loggerutility.LoggerUtilityutility - Reading text from Frame 2 heading
+15-04-2026 13:15:27 INFO  loggerutility.LoggerUtilityutility - Frame 2 heading: This is a sample page
+15-04-2026 13:15:27 INFO  loggerutility.LoggerUtilityutility - Switching back to default content
+15-04-2026 13:15:27 INFO  loggerutility.LoggerUtilityutility - Clicking 'Nested Frames' submenu
+15-04-2026 13:15:27 INFO  loggerutility.LoggerUtilityutility - NestedFramesPage initialized
+15-04-2026 13:15:27 INFO  loggerutility.LoggerUtilityutility - Switching to parent frame (frame1)
+15-04-2026 13:15:37 INFO  loggerutility.LoggerUtilityutility - Switching to child iframe
+15-04-2026 13:15:37 INFO  loggerutility.LoggerUtilityutility - Reading text from child frame: Child Iframe
+15-04-2026 13:15:37 INFO  loggerutility.LoggerUtilityutility - Switching back to default content
+15-04-2026 13:15:37 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully

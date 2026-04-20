@@ -5,9 +5,9 @@ import pages.AlertsWindowsPage;
 import pages.FramesPage;
 import pages.HomePage;
 import pages.NestedFramesPage;
-import sharedData.SharedData;
+import sharedData.BaseTest;
 
-public class FramesTest extends SharedData {
+public class FramesTest extends BaseTest {
 
     @Test
     public void frameTest() {

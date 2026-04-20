@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 import pages.ElementsPage;
 import pages.HomePage;
 import pages.WebTablesPage;
-import sharedData.SharedData;
+import sharedData.BaseTest;
 
-public class WebTableTest extends SharedData {
+public class WebTableTest extends BaseTest {
 
     @Test
     public void webTableTest() {

@@ -4,9 +4,9 @@ import org.testng.annotations.Test;
 import pages.AlertsPage;
 import pages.AlertsWindowsPage;
 import pages.HomePage;
-import sharedData.SharedData;
+import sharedData.BaseTest;
 
-public class AlertsTest extends SharedData {
+public class AlertsTest extends BaseTest {
 
     @Test
     public void alertsTest() {

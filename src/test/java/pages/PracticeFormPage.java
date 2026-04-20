@@ -1,5 +1,6 @@
 package pages;
 
+import loggerutility.LoggerUtility;
 import objectdata.PracticeFormObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -7,12 +8,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+
 import java.io.File;
 import java.util.List;
 
 public class PracticeFormPage extends BasePage {
     public PracticeFormPage(WebDriver driver) {
         super(driver);
+        LoggerUtility.info("PracticeFormPage initialized");
     }
 
     @FindBy(xpath = "//span[text()='Practice Form']")
@@ -79,15 +82,23 @@ public class PracticeFormPage extends BasePage {
     private List<WebElement> tableValues;
 
     public void navigateToPracticeFormSubMenu() {
+        LoggerUtility.info("Clicking 'Practice Form' submenu");
         elementsMethods.clickJSElement(practiceFormSubMenu);
     }
 
     public void fillTheEntireForm(PracticeFormObject testData) {
+        LoggerUtility.info("Filling Practice Form");
 
+        LoggerUtility.info("Entering first name: " + testData.getFirstNameValue());
         elementsMethods.fillElement(firstName, testData.getFirstNameValue());
+
+        LoggerUtility.info("Entering last name: " + testData.getLastNameValue());
         elementsMethods.fillElement(lastName, testData.getLastNameValue());
+
+        LoggerUtility.info("Entering email: " + testData.getUserEmailValue());
         elementsMethods.fillElement(userEmail, testData.getUserEmailValue());
 
+        LoggerUtility.info("Selecting gender: " + testData.getGenderValue());
         switch (testData.getGenderValue()) {
             case "Male":
                 elementsMethods.clickJSElement(driver.findElement(By.xpath("//label[@for='" + genders.get(0).getAttribute("id") + "']")));
@@ -100,12 +111,15 @@ public class PracticeFormPage extends BasePage {
                 break;
         }
 
+        LoggerUtility.info("Entering mobile number: " + testData.getUserNumberValue());
         elementsMethods.fillElement(userNumber, testData.getUserNumberValue());
-
+        LoggerUtility.info("Setting date of birth: " + testData.getDayValue() + " " + testData.getMonthValue() + " " + testData.getYearValue());
         elementsMethods.clickJSElement(dateOfBirthInput);
+
         elementsMethods.selectByTextElement(dateOfBirthMonth, testData.getMonthValue());
         elementsMethods.scrollPage(0, 350);
         elementsMethods.selectByTextElement(dateOfBirthYear, testData.getYearValue());
+
         boolean dayFound = false;
         for (WebElement day : dateOfBirthDays) {
             if (day.getText().equals(testData.getDayValue())) {
@@ -118,6 +132,7 @@ public class PracticeFormPage extends BasePage {
             throw new RuntimeException("Day " + testData.getDayValue() + " is not available for selected month/year.");
         }
 
+        LoggerUtility.info("Entering subject: " + testData.getSubjectsValue());
         elementsMethods.fillElement(subjectsInput, testData.getSubjectsValue());
         elementsMethods.pressElement(subjectsInput, Keys.ENTER);
 
@@ -131,26 +146,33 @@ public class PracticeFormPage extends BasePage {
             }
         }
 
+        LoggerUtility.info("Uploading picture: " + testData.getPicturePathValue());
         File file = new File("src/test/resources/" + testData.getPicturePathValue());
         uploadPicture.sendKeys(file.getAbsolutePath());
 
+        LoggerUtility.info("Entering current address");
         elementsMethods.fillElement(currentAddress, testData.getCurrentAddressValue());
 
+        LoggerUtility.info("Selecting state: " + testData.getCurrentStateValue());
         elementsMethods.scrollPage(0, 350);
         elementsMethods.clickJSElement(state);
         elementsMethods.fillElement(currentStateInput, testData.getCurrentStateValue());
         elementsMethods.pressElement(currentStateInput, Keys.ENTER);
 
+        LoggerUtility.info("Selecting city: " + testData.getCurrentCityValue());
         elementsMethods.clickJSElement(city);
         elementsMethods.fillElement(currentCityInput, testData.getCurrentCityValue());
         elementsMethods.pressElement(currentCityInput, Keys.ENTER);
 
+        LoggerUtility.info("Submitting form");
         elementsMethods.scrollPage(0, 350);
         elementsMethods.clickJSElement(submitButton);
     }
 
     public void verifyFormSubmission(PracticeFormObject testData) {
+        LoggerUtility.info("Verifying form submission modal");
         Assert.assertEquals(modalForm.getText(), "Thanks for submitting the form");
+        LoggerUtility.info("Verifying submitted table values");
         Assert.assertEquals(tableValues.get(0).getText(), "Student Name " + testData.getFirstNameValue() + " " + testData.getLastNameValue());
         Assert.assertEquals(tableValues.get(1).getText(), "Student Email " + testData.getUserEmailValue());
         Assert.assertEquals(tableValues.get(2).getText(), "Gender " + testData.getGenderValue());

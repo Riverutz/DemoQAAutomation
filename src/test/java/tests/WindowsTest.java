@@ -4,9 +4,9 @@ import org.testng.annotations.Test;
 import pages.AlertsWindowsPage;
 import pages.HomePage;
 import pages.WindowsPage;
-import sharedData.SharedData;
+import sharedData.BaseTest;
 
-public class WindowsTest extends SharedData {
+public class WindowsTest extends BaseTest {
 
     @Test
     public void windowTest() {

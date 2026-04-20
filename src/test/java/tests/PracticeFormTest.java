@@ -1,15 +1,12 @@
 package tests;
 
 import objectdata.PracticeFormObject;
-import org.openqa.selenium.*;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.PracticeFormPage;
-import sharedData.SharedData;
-import java.util.Arrays;
-import java.util.List;
+import sharedData.BaseTest;
 
-public class PracticeFormTest extends SharedData {
+public class PracticeFormTest extends BaseTest {
 
     @Test
     public void practiceFormTest() {
