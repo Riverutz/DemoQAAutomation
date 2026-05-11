@@ -1,32 +1,57 @@
-# DemoQAAutomation
+# demoqa-ui-automation
 
-Automation test suite for the [DemoQA](https://demoqa.com/) website, structured by main menus and their respective features.
+Automated UI testing framework for [DemoQA](https://demoqa.com/), a practice website for QA automation engineers.
 
-## Tests Implemented
+## 🛠️ Tech Stack
 
-- **Elements Menu**
-  - Web Tables
-- **Forms Menu**
-  - Practice Form
-- **Alerts, Frames & Windows**
-  - Browser Windows
-  - Alerts
-  - Frames
-  - Nested Frames
+- **Java 17**
+- **Selenium WebDriver**
+- **TestNG**
+- **Jackson** - JSON test data management
+- **Log4j2** - Logging
+- **Lombok** - Boilerplate code reduction
+- **Maven** - Build and dependency management
+- **Maven Surefire Plugin** - Test execution configuration
 
-## Technologies & Features
+## 📁 Project Structure
 
-- Java with object-oriented principles
-- Selenium WebDriver for browser automation
-- TestNG for test organization and assertions
-- Page Object Model for maintainable and reusable tests
-- Data-driven testing using JSON
-- Log4j2 for logging test actions
-- Lombok to reduce boilerplate code
-- Maven project with Surefire plugin for test execution
+    src/test/
+    ├── java/
+    │   ├── sharedData/        # BaseTest and BasePage classes
+    │   ├── helperMethods/     # Reusable Selenium helper methods
+    │   ├── objectdata/        # Jackson POJO classes for test data
+    │   ├── loggerutility/     # LoggerUtility
+    │   ├── pages/             # Page Object Model classes
+    │   └── tests/             # Test classes
+    └── resources/
+        └── testdata/          # JSON test data files
 
-## Purpose
+## ✅ Test Scenarios
 
-Provides a structured and maintainable automation test suite for practicing web testing with Java, TestNG, and Page Object Models. Includes practical examples of interacting with forms, tables, alerts, frames, and browser windows. 
+### Elements
+- Web Tables (add, edit, delete record)
 
-This project is continuously updated.
+### Forms
+- Practice Form (fill and verify full form submission)
+
+### Alerts, Frames & Windows
+- Browser Windows
+- Alerts
+- Frames
+- Nested Frames
+
+## ▶️ How to Run
+
+1. Clone the repository `git clone https://github.com/Riverutz/demoqa-ui-automation.git`
+2. Open in IntelliJ IDEA
+3. Run all tests via `testng.xml`
+
+## 🔄 CI/CD
+
+Tests can be triggered manually via GitHub Actions in headless Chrome.
+
+## 📋 Design Patterns
+
+- **Page Object Model (POM)** - separates test logic from page structure
+- **Data Driven Testing** - test data managed via JSON files
+- **Base classes** - reusable setup and teardown logic
