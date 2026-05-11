@@ -352,3 +352,104 @@ Session ID: c9dc267f5c8d8d75389550454a5dbce1
 11-05-2026 11:27:35 INFO  loggerutility.LoggerUtilityutility - Clicking 'Timer Alert' button
 11-05-2026 11:27:35 INFO  loggerutility.LoggerUtilityutility - Waiting for timer alert and accepting it
 11-05-2026 11:27:41 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+11-05-2026 11:47:26 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+11-05-2026 11:47:27 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+11-05-2026 11:47:28 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+11-05-2026 11:47:28 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+11-05-2026 11:47:28 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+11-05-2026 11:47:28 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+11-05-2026 11:47:28 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+11-05-2026 11:47:28 INFO  loggerutility.LoggerUtilityutility - Clicking 'Forms' menu
+11-05-2026 11:47:28 INFO  loggerutility.LoggerUtilityutility - PracticeFormPage initialized
+11-05-2026 11:47:28 INFO  loggerutility.LoggerUtilityutility - Clicking 'Practice Form' submenu
+11-05-2026 11:47:28 INFO  loggerutility.LoggerUtilityutility - Filling Practice Form
+11-05-2026 11:47:28 INFO  loggerutility.LoggerUtilityutility - Entering first name: Daniel
+11-05-2026 11:47:28 INFO  loggerutility.LoggerUtilityutility - Entering last name: Vlasceanu
+11-05-2026 11:47:28 INFO  loggerutility.LoggerUtilityutility - Entering email: automationtesting@gmail.com
+11-05-2026 11:47:29 INFO  loggerutility.LoggerUtilityutility - Selecting gender: Male
+11-05-2026 11:47:29 INFO  loggerutility.LoggerUtilityutility - Entering mobile number: 0712412445
+11-05-2026 11:47:29 INFO  loggerutility.LoggerUtilityutility - Setting date of birth: 23 December 2000
+11-05-2026 11:47:30 INFO  loggerutility.LoggerUtilityutility - Entering subject: Arts
+11-05-2026 11:47:30 INFO  loggerutility.LoggerUtilityutility - Uploading picture: exempluUpload.txt
+11-05-2026 11:47:30 INFO  loggerutility.LoggerUtilityutility - Entering current address
+11-05-2026 11:47:30 INFO  loggerutility.LoggerUtilityutility - Selecting state: Haryana
+11-05-2026 11:47:30 INFO  loggerutility.LoggerUtilityutility - Selecting city: Karnal
+11-05-2026 11:47:30 INFO  loggerutility.LoggerUtilityutility - Submitting form
+11-05-2026 11:47:30 INFO  loggerutility.LoggerUtilityutility - Verifying form submission modal
+11-05-2026 11:47:30 INFO  loggerutility.LoggerUtilityutility - Verifying submitted table values
+11-05-2026 11:47:31 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+11-05-2026 11:48:01 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+11-05-2026 11:48:02 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+11-05-2026 11:48:02 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+11-05-2026 11:48:02 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+11-05-2026 11:48:02 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+11-05-2026 11:48:02 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+11-05-2026 11:48:03 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+11-05-2026 11:48:03 INFO  loggerutility.LoggerUtilityutility - Clicking 'Elements' menu
+11-05-2026 11:48:04 ERROR loggerutility.LoggerUtilityutility - element click intercepted: Element is not clickable at point (193, 672)
+  (Session info: chrome=147.0.7727.139)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eef3ce419a211a1bdbdcad8ad0f0a138, clickElement {id=f.CC85E11878979D74DC871FF792A3AD3B.d.48E469E99717D4990EF9543FFAFA2623.e.12}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\alexv\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60206}, goog:processID: 26276, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60206/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (eef3ce419a211a1bdbdcad8ad0f0a138)] -> xpath: //h5[text()='Elements']]
+Session ID: eef3ce419a211a1bdbdcad8ad0f0a138
+11-05-2026 11:48:04 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+11-05-2026 11:48:23 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+11-05-2026 11:48:24 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+11-05-2026 11:48:25 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+11-05-2026 11:48:25 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+11-05-2026 11:48:25 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+11-05-2026 11:48:25 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+11-05-2026 11:48:25 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+11-05-2026 11:48:25 INFO  loggerutility.LoggerUtilityutility - Clicking 'Elements' menu
+11-05-2026 11:48:25 INFO  loggerutility.LoggerUtilityutility - WebTablesPage initialized
+11-05-2026 11:48:25 INFO  loggerutility.LoggerUtilityutility - Filling new record form
+11-05-2026 11:48:25 INFO  loggerutility.LoggerUtilityutility - Entering first name: Daniel
+11-05-2026 11:48:26 INFO  loggerutility.LoggerUtilityutility - Entering last name: Vlasceanu
+11-05-2026 11:48:26 INFO  loggerutility.LoggerUtilityutility - Entering email: autotesting@gmail.com
+11-05-2026 11:48:26 INFO  loggerutility.LoggerUtilityutility - Entering age: 35
+11-05-2026 11:48:26 INFO  loggerutility.LoggerUtilityutility - Entering salary: 5500
+11-05-2026 11:48:26 INFO  loggerutility.LoggerUtilityutility - Entering department: Testing
+11-05-2026 11:48:26 INFO  loggerutility.LoggerUtilityutility - Submitting new record
+11-05-2026 11:48:26 INFO  loggerutility.LoggerUtilityutility - Clicking edit button for record 4
+11-05-2026 11:48:27 INFO  loggerutility.LoggerUtilityutility - Scrolling to edit form
+11-05-2026 11:48:27 INFO  loggerutility.LoggerUtilityutility - Updating salary: 4500
+11-05-2026 11:48:27 INFO  loggerutility.LoggerUtilityutility - Updating department: Programming
+11-05-2026 11:48:27 INFO  loggerutility.LoggerUtilityutility - Submitting updated record
+11-05-2026 11:48:27 INFO  loggerutility.LoggerUtilityutility - Deleting record 4
+11-05-2026 11:48:29 ERROR loggerutility.LoggerUtilityutility - element click intercepted: Element is not clickable at point (822, 268)
+  (Session info: chrome=147.0.7727.139)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [92778aa2e4f80a860350dff7675c570d, clickElement {id=f.BA1269DECE219022B45DF8FB57E7AB1E.d.0EF6CFAC3F873CF4684F1365CB3D4AE8.e.87}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\alexv\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58523}, goog:processID: 22616, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58523/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (92778aa2e4f80a860350dff7675c570d)] -> id: delete-record-4]
+Session ID: 92778aa2e4f80a860350dff7675c570d
+11-05-2026 11:48:29 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+11-05-2026 11:48:46 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+11-05-2026 11:48:47 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+11-05-2026 11:48:47 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+11-05-2026 11:48:47 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+11-05-2026 11:48:47 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+11-05-2026 11:48:47 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+11-05-2026 11:48:48 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+11-05-2026 11:48:48 INFO  loggerutility.LoggerUtilityutility - Clicking 'Elements' menu
+11-05-2026 11:48:48 INFO  loggerutility.LoggerUtilityutility - WebTablesPage initialized
+11-05-2026 11:48:48 INFO  loggerutility.LoggerUtilityutility - Filling new record form
+11-05-2026 11:48:48 INFO  loggerutility.LoggerUtilityutility - Entering first name: Daniel
+11-05-2026 11:48:48 INFO  loggerutility.LoggerUtilityutility - Entering last name: Vlasceanu
+11-05-2026 11:48:48 INFO  loggerutility.LoggerUtilityutility - Entering email: autotesting@gmail.com
+11-05-2026 11:48:49 INFO  loggerutility.LoggerUtilityutility - Entering age: 35
+11-05-2026 11:48:49 INFO  loggerutility.LoggerUtilityutility - Entering salary: 5500
+11-05-2026 11:48:49 INFO  loggerutility.LoggerUtilityutility - Entering department: Testing
+11-05-2026 11:48:49 INFO  loggerutility.LoggerUtilityutility - Submitting new record
+11-05-2026 11:48:49 INFO  loggerutility.LoggerUtilityutility - Clicking edit button for record 4
+11-05-2026 11:48:50 INFO  loggerutility.LoggerUtilityutility - Scrolling to edit form
+11-05-2026 11:48:50 INFO  loggerutility.LoggerUtilityutility - Updating salary: 4500
+11-05-2026 11:48:50 INFO  loggerutility.LoggerUtilityutility - Updating department: Programming
+11-05-2026 11:48:50 INFO  loggerutility.LoggerUtilityutility - Submitting updated record
+11-05-2026 11:48:50 INFO  loggerutility.LoggerUtilityutility - Deleting record 4
+11-05-2026 11:48:51 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully

@@ -43,7 +43,7 @@ public class WebTablesPage extends BasePage {
     private WebElement deleteRecord4;
 
     public void addNewRecord() {
-        elementsMethods.clickElement(addNewRecordButton);
+        elementsMethods.clickJSElement(addNewRecordButton);
     }
 
     public void addEntry(WebTablesObject testData) {
@@ -90,6 +90,6 @@ public class WebTablesPage extends BasePage {
 
     public void deleteEntry() {
         LoggerUtility.info("Deleting record 4");
-        elementsMethods.clickElement(deleteRecord4);
+        elementsMethods.clickJSElement(deleteRecord4);
     }
 }

@@ -32,6 +32,6 @@ public class HomePage extends BasePage {
 
     public void navigateToElementsMenu() {
         LoggerUtility.info("Clicking 'Elements' menu");
-        elementsMethods.clickElement(elementsMenu);
+        elementsMethods.clickJSElement(elementsMenu);
     }
 }
