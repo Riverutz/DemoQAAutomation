@@ -171,6 +171,7 @@ public class PracticeFormPage extends BasePage {
 
     public void verifyFormSubmission(PracticeFormObject testData) {
         LoggerUtility.info("Verifying form submission modal");
+        elementsMethods.waitForElementVisible(modalForm);
         Assert.assertEquals(modalForm.getText(), "Thanks for submitting the form");
         LoggerUtility.info("Verifying submitted table values");
         Assert.assertEquals(tableValues.get(0).getText(), "Student Name " + testData.getFirstNameValue() + " " + testData.getLastNameValue());
