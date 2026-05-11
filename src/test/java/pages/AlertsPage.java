@@ -33,7 +33,7 @@ public class AlertsPage extends BasePage{
 
     public void clickAndDismissConfirm() {
         LoggerUtility.info("Clicking 'Confirm' button");
-        elementsMethods.clickElement(confirmButton);
+        elementsMethods.clickJSElement(confirmButton);
 
         LoggerUtility.info("Clicking 'OK' on confirm alert");
         alertsMethods.acceptAlert();
@@ -41,7 +41,7 @@ public class AlertsPage extends BasePage{
 
     public void clickAndFillAlertPrompt() {
         LoggerUtility.info("Clicking 'Prompt' button");
-        elementsMethods.clickElement(promtButton);
+        elementsMethods.clickJSElement(promtButton);
 
         LoggerUtility.info("Filling prompt alert with value: Daniel");
         alertsMethods.fillAlert("Daniel");
@@ -49,7 +49,7 @@ public class AlertsPage extends BasePage{
 
     public void clickAndAcceptTimerAlert(){
         LoggerUtility.info("Clicking 'Timer Alert' button");
-        elementsMethods.clickElement(timerAlertButton);
+        elementsMethods.clickJSElement(timerAlertButton);
 
         LoggerUtility.info("Waiting for timer alert and accepting it");
         alertsMethods.acceptAlert();

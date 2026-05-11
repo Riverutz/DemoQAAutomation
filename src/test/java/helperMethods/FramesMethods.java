@@ -1,14 +1,12 @@
 package helperMethods;
 
+import lombok.AllArgsConstructor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+@AllArgsConstructor
 public class FramesMethods {
     public WebDriver driver;
-
-    public FramesMethods(WebDriver driver) {
-        this.driver = driver;
-    }
 
     public void switchToFrame(String text) {
         driver.switchTo().frame(text);

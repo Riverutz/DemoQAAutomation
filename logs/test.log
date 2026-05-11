@@ -194,3 +194,161 @@
 15-04-2026 13:15:37 INFO  loggerutility.LoggerUtilityutility - Reading text from child frame: Child Iframe
 15-04-2026 13:15:37 INFO  loggerutility.LoggerUtilityutility - Switching back to default content
 15-04-2026 13:15:37 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+11-05-2026 11:12:37 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+11-05-2026 11:12:40 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+11-05-2026 11:12:41 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+11-05-2026 11:12:41 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+11-05-2026 11:12:41 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+11-05-2026 11:12:41 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+11-05-2026 11:12:41 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+11-05-2026 11:12:41 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+11-05-2026 11:12:41 INFO  loggerutility.LoggerUtilityutility - AlertsWindowsPage initialized
+11-05-2026 11:12:41 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts' submenu
+11-05-2026 11:12:42 ERROR loggerutility.LoggerUtilityutility - element click intercepted: Element <span class="text">...</span> is not clickable at point (82, 400). Other element would receive the click: <footer>...</footer>
+  (Session info: chrome=147.0.7727.139)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8470cb2109a7e9de53c1aa5517989f4, clickElement {id=f.E3B41D42D2614669CF034125B89FC3C0.d.2ED702B83D2A2351F60C9B130457D057.e.14}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\alexv\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57163}, goog:processID: 28416, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57163/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d8470cb2109a7e9de53c1aa5517989f4)] -> xpath: //span[text()='Alerts']]
+Session ID: d8470cb2109a7e9de53c1aa5517989f4
+11-05-2026 11:12:42 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+11-05-2026 11:24:19 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+11-05-2026 11:24:21 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+11-05-2026 11:24:21 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+11-05-2026 11:24:21 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+11-05-2026 11:24:21 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+11-05-2026 11:24:21 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+11-05-2026 11:24:21 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+11-05-2026 11:24:21 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+11-05-2026 11:24:22 INFO  loggerutility.LoggerUtilityutility - AlertsWindowsPage initialized
+11-05-2026 11:24:22 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts' submenu
+11-05-2026 11:24:22 INFO  loggerutility.LoggerUtilityutility - AlertsPage initialized
+11-05-2026 11:24:22 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alert' button
+11-05-2026 11:24:22 INFO  loggerutility.LoggerUtilityutility - Accepting alert
+11-05-2026 11:24:22 INFO  loggerutility.LoggerUtilityutility - Clicking 'Confirm' button
+11-05-2026 11:24:23 ERROR loggerutility.LoggerUtilityutility - element click intercepted: Element <button type="button" id="confirmButton" class="btn btn-primary">...</button> is not clickable at point (436, 410). Other element would receive the click: <span>...</span>
+  (Session info: chrome=147.0.7727.139)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7398d36e3049baab280de2aed6216cce, clickElement {id=f.46FCC3B36B798653BA103FA713A3D434.d.F252DFC84A503B2DB343BB89F5020CF2.e.19}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\alexv\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63585}, goog:processID: 15040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63585/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7398d36e3049baab280de2aed6216cce)] -> id: confirmButton]
+Session ID: 7398d36e3049baab280de2aed6216cce
+11-05-2026 11:24:23 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+11-05-2026 11:25:41 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+11-05-2026 11:25:43 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+11-05-2026 11:25:43 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+11-05-2026 11:25:43 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+11-05-2026 11:25:43 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+11-05-2026 11:25:43 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+11-05-2026 11:25:43 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+11-05-2026 11:25:43 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+11-05-2026 11:25:43 INFO  loggerutility.LoggerUtilityutility - AlertsWindowsPage initialized
+11-05-2026 11:25:43 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts' submenu
+11-05-2026 11:25:44 INFO  loggerutility.LoggerUtilityutility - AlertsPage initialized
+11-05-2026 11:25:44 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alert' button
+11-05-2026 11:25:44 INFO  loggerutility.LoggerUtilityutility - Accepting alert
+11-05-2026 11:25:44 INFO  loggerutility.LoggerUtilityutility - Clicking 'Confirm' button
+11-05-2026 11:25:45 ERROR loggerutility.LoggerUtilityutility - element click intercepted: Element <button type="button" id="confirmButton" class="btn btn-primary">...</button> is not clickable at point (436, 410). Other element would receive the click: <span>...</span>
+  (Session info: chrome=147.0.7727.139)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6e706f3ff9aa147a621c376451e69725, clickElement {id=f.92BDC5001E12BF1D4AE3095BF6FE6630.d.845BEF308F58255A68D8932E6FCDD105.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\alexv\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53240}, goog:processID: 27516, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53240/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6e706f3ff9aa147a621c376451e69725)] -> id: confirmButton]
+Session ID: 6e706f3ff9aa147a621c376451e69725
+11-05-2026 11:25:45 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+11-05-2026 11:26:10 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+11-05-2026 11:26:11 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+11-05-2026 11:26:12 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+11-05-2026 11:26:12 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+11-05-2026 11:26:12 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+11-05-2026 11:26:12 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+11-05-2026 11:26:12 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+11-05-2026 11:26:12 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+11-05-2026 11:26:12 INFO  loggerutility.LoggerUtilityutility - AlertsWindowsPage initialized
+11-05-2026 11:26:12 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts' submenu
+11-05-2026 11:26:13 ERROR loggerutility.LoggerUtilityutility - element click intercepted: Element <span class="text">...</span> is not clickable at point (82, 400). Other element would receive the click: <footer>...</footer>
+  (Session info: chrome=147.0.7727.139)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c0f7c44877e3c10b6097c678190f6db, clickElement {id=f.08FB009AC2D20F3C913BA02FDC61F31F.d.07BE6CA5E3B8DE3AD45994712F25C104.e.13}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\alexv\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52953}, goog:processID: 7352, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52953/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8c0f7c44877e3c10b6097c678190f6db)] -> xpath: //span[text()='Alerts']]
+Session ID: 8c0f7c44877e3c10b6097c678190f6db
+11-05-2026 11:26:13 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+11-05-2026 11:26:35 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+11-05-2026 11:26:36 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+11-05-2026 11:26:37 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+11-05-2026 11:26:37 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+11-05-2026 11:26:37 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+11-05-2026 11:26:37 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+11-05-2026 11:26:37 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+11-05-2026 11:26:37 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+11-05-2026 11:26:37 INFO  loggerutility.LoggerUtilityutility - AlertsWindowsPage initialized
+11-05-2026 11:26:37 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts' submenu
+11-05-2026 11:26:37 INFO  loggerutility.LoggerUtilityutility - AlertsPage initialized
+11-05-2026 11:26:37 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alert' button
+11-05-2026 11:26:37 INFO  loggerutility.LoggerUtilityutility - Accepting alert
+11-05-2026 11:26:37 INFO  loggerutility.LoggerUtilityutility - Clicking 'Confirm' button
+11-05-2026 11:26:39 ERROR loggerutility.LoggerUtilityutility - element click intercepted: Element <button type="button" id="confirmButton" class="btn btn-primary">...</button> is not clickable at point (436, 410). Other element would receive the click: <span>...</span>
+  (Session info: chrome=147.0.7727.139)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f5fc0fb411c160e6c2af725f41b5d3c0, clickElement {id=f.55F7E6BE133549AE91701C540F978531.d.FC5B765E50BB6E7A4877D241E5A93908.e.18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\alexv\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56908}, goog:processID: 10508, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56908/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f5fc0fb411c160e6c2af725f41b5d3c0)] -> id: confirmButton]
+Session ID: f5fc0fb411c160e6c2af725f41b5d3c0
+11-05-2026 11:26:39 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+11-05-2026 11:26:59 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+11-05-2026 11:27:00 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+11-05-2026 11:27:01 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+11-05-2026 11:27:01 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+11-05-2026 11:27:01 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+11-05-2026 11:27:01 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+11-05-2026 11:27:01 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+11-05-2026 11:27:01 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+11-05-2026 11:27:01 INFO  loggerutility.LoggerUtilityutility - AlertsWindowsPage initialized
+11-05-2026 11:27:01 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts' submenu
+11-05-2026 11:27:01 INFO  loggerutility.LoggerUtilityutility - AlertsPage initialized
+11-05-2026 11:27:01 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alert' button
+11-05-2026 11:27:02 INFO  loggerutility.LoggerUtilityutility - Accepting alert
+11-05-2026 11:27:02 INFO  loggerutility.LoggerUtilityutility - Clicking 'Confirm' button
+11-05-2026 11:27:02 INFO  loggerutility.LoggerUtilityutility - Clicking 'OK' on confirm alert
+11-05-2026 11:27:02 INFO  loggerutility.LoggerUtilityutility - Clicking 'Prompt' button
+11-05-2026 11:27:03 ERROR loggerutility.LoggerUtilityutility - element click intercepted: Element is not clickable at point (436, 506)
+  (Session info: chrome=147.0.7727.139)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9dc267f5c8d8d75389550454a5dbce1, clickElement {id=f.581DEFC86E309DBFBB58E4637B15DA09.d.F986CE42F74F42897CF5D32F744682A7.e.19}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.139, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\alexv\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51413}, goog:processID: 17896, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51413/devtoo..., se:cdpVersion: 147.0.7727.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c9dc267f5c8d8d75389550454a5dbce1)] -> id: promtButton]
+Session ID: c9dc267f5c8d8d75389550454a5dbce1
+11-05-2026 11:27:03 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully
+11-05-2026 11:27:32 INFO  loggerutility.LoggerUtilityutility - Starting test environment setup
+11-05-2026 11:27:33 INFO  loggerutility.LoggerUtilityutility - ChromeDriver initialized
+11-05-2026 11:27:34 INFO  loggerutility.LoggerUtilityutility - Navigated to application URL
+11-05-2026 11:27:34 INFO  loggerutility.LoggerUtilityutility - Browser window maximized
+11-05-2026 11:27:34 INFO  loggerutility.LoggerUtilityutility - Implicit wait set to 10 seconds
+11-05-2026 11:27:34 INFO  loggerutility.LoggerUtilityutility - Test environment ready
+11-05-2026 11:27:34 INFO  loggerutility.LoggerUtilityutility - HomePage initialized
+11-05-2026 11:27:34 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts, Frame & Windows' menu
+11-05-2026 11:27:34 INFO  loggerutility.LoggerUtilityutility - AlertsWindowsPage initialized
+11-05-2026 11:27:34 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alerts' submenu
+11-05-2026 11:27:35 INFO  loggerutility.LoggerUtilityutility - AlertsPage initialized
+11-05-2026 11:27:35 INFO  loggerutility.LoggerUtilityutility - Clicking 'Alert' button
+11-05-2026 11:27:35 INFO  loggerutility.LoggerUtilityutility - Accepting alert
+11-05-2026 11:27:35 INFO  loggerutility.LoggerUtilityutility - Clicking 'Confirm' button
+11-05-2026 11:27:35 INFO  loggerutility.LoggerUtilityutility - Clicking 'OK' on confirm alert
+11-05-2026 11:27:35 INFO  loggerutility.LoggerUtilityutility - Clicking 'Prompt' button
+11-05-2026 11:27:35 INFO  loggerutility.LoggerUtilityutility - Filling prompt alert with value: Daniel
+11-05-2026 11:27:35 INFO  loggerutility.LoggerUtilityutility - Clicking 'Timer Alert' button
+11-05-2026 11:27:35 INFO  loggerutility.LoggerUtilityutility - Waiting for timer alert and accepting it
+11-05-2026 11:27:41 INFO  loggerutility.LoggerUtilityutility - Browser closed successfully

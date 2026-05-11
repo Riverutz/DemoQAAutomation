@@ -1,17 +1,15 @@
 package helperMethods;
 
+import lombok.AllArgsConstructor;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
+@AllArgsConstructor
 public class AlertsMethods {
     public WebDriver driver;
-
-    public AlertsMethods(WebDriver driver) {
-        this.driver = driver;
-    }
 
     public void waitForAlert() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

@@ -32,6 +32,6 @@ public class AlertsWindowsPage extends BasePage{
 
     public void navigateToAlertsSubMenu(){
         LoggerUtility.info("Clicking 'Alerts' submenu");
-        elementsMethods.clickElement(alertsSubMenu);
+        elementsMethods.clickJSElement(alertsSubMenu);
     }
 }

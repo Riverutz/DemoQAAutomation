@@ -1,9 +1,13 @@
 package objectdata;
 
+import lombok.Getter;
+import lombok.Setter;
 import java.util.Arrays;
 import java.util.List;
 
-public class PracticeFormObject extends GeneralObject{
+@Getter
+@Setter
+public class PracticeFormObject extends GeneralObject {
     private String firstNameValue = "Daniel";
     private String lastNameValue = "Vlasceanu";
     private String userEmailValue = "automationtesting@gmail.com";
@@ -22,116 +26,6 @@ public class PracticeFormObject extends GeneralObject{
     public PracticeFormObject(String filePath) {
         fromJsonToObject(filePath);
     }
-
-    public String getFirstNameValue() {
-        return firstNameValue;
-    }
-
-    public void setFirstNameValue(String firstNameValue) {
-        this.firstNameValue = firstNameValue;
-    }
-
-    public String getLastNameValue() {
-        return lastNameValue;
-    }
-
-    public void setLastNameValue(String lastNameValue) {
-        this.lastNameValue = lastNameValue;
-    }
-
-    public String getUserEmailValue() {
-        return userEmailValue;
-    }
-
-    public void setUserEmailValue(String userEmailValue) {
-        this.userEmailValue = userEmailValue;
-    }
-
-    public String getGenderValue() {
-        return genderValue;
-    }
-
-    public void setGenderValue(String genderValue) {
-        this.genderValue = genderValue;
-    }
-
-    public String getUserNumberValue() {
-        return userNumberValue;
-    }
-
-    public void setUserNumberValue(String userNumberValue) {
-        this.userNumberValue = userNumberValue;
-    }
-
-    public String getMonthValue() {
-        return monthValue;
-    }
-
-    public void setMonthValue(String monthValue) {
-        this.monthValue = monthValue;
-    }
-
-    public String getYearValue() {
-        return yearValue;
-    }
-
-    public void setYearValue(String yearValue) {
-        this.yearValue = yearValue;
-    }
-
-    public String getDayValue() {
-        return dayValue;
-    }
-
-    public void setDayValue(String dayValue) {
-        this.dayValue = dayValue;
-    }
-
-    public String getSubjectsValue() {
-        return subjectsValue;
-    }
-
-    public void setSubjectsValue(String subjectsValue) {
-        this.subjectsValue = subjectsValue;
-    }
-
-    public List<String> getHobbiesValues() {
-        return hobbiesValues;
-    }
-
-    public void setHobbiesValues(List<String> hobbiesValues) {
-        this.hobbiesValues = hobbiesValues;
-    }
-
-    public String getPicturePathValue() {
-        return picturePathValue;
-    }
-
-    public void setPicturePathValue(String picturePathValue) {
-        this.picturePathValue = picturePathValue;
-    }
-
-    public String getCurrentAddressValue() {
-        return currentAddressValue;
-    }
-
-    public void setCurrentAddressValue(String currentAddressValue) {
-        this.currentAddressValue = currentAddressValue;
-    }
-
-    public String getCurrentStateValue() {
-        return currentStateValue;
-    }
-
-    public void setCurrentStateValue(String currentStateValue) {
-        this.currentStateValue = currentStateValue;
-    }
-
-    public String getCurrentCityValue() {
-        return currentCityValue;
-    }
-
-    public void setCurrentCityValue(String currentCityValue) {
-        this.currentCityValue = currentCityValue;
-    }
 }
+
+
